@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">topAppBar</string>
+    <string name="actionSettings">Settings</string>
+    <string name="actionFav">Mark Favorite</string>
+    <string name="actionSearch">Search</string>
+    <string name="actionShare">Share</string>
+</resources>
