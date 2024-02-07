@@ -18,33 +18,5 @@
         app:layout_constraintTop_toTopOf="parent"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
 
-    <item
-        android:id="@+id/action_search"
-        android:layout_width="74dp"
-        android:layout_height="64dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="9dp"
-        android:layout_marginEnd="307dp"
-        android:icon="@android:drawable/ic_media_play"
-        android:title="@string/actionSearch"
-        app:actionViewClass="androidx.appcompat.widget.SearchView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/my_toolbar"
-        app:showAsAction="ifRoom|collapseActionView" />
-
-    <item
-        android:id="@+id/action_share"
-        android:layout_width="50dp"
-        android:layout_height="62dp"
-        android:layout_marginStart="166dp"
-        android:layout_marginTop="121dp"
-        android:layout_marginEnd="245dp"
-        android:title="@string/actionShare"
-        app:actionProviderClass="androidx.appcompat.widget.ShareActionProvider"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/my_toolbar"
-        app:showAsAction="ifRoom" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
