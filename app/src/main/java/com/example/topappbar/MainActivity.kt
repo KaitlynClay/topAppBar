@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         // up/back button - home navigation enabled/disabled
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
-        setSupportActionBar(findViewById(R.id.my_toolbar))
+//        setSupportActionBar(findViewById(R.id.my_toolbar))
 
     }
     override fun onOptionsItemSelected(item: MenuItem) = when (item.itemId) {
